@@ -3,11 +3,13 @@ import {
   getDownloadURL,
   getStorage,
   ref,
+  
   uploadBytesResumable,
 } from 'firebase/storage';
 import { app } from '../firebase';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+
 
 export default function CreateListing() {
   const { currentUser } = useSelector((state) => state.user);
@@ -30,7 +32,7 @@ export default function CreateListing() {
   const [imageUploadError, setImageUploadError] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] =  useState(false);
   console.log(formData);
   const handleImageSubmit = (e) => {
     if (files.length > 0 && files.length + formData.imageUrls.length < 7) {
@@ -113,7 +115,7 @@ export default function CreateListing() {
 
     if (
       e.target.type === 'number' ||
-      e.target.type === 'text' ||
+      e.target.type === 'text'  ||
       e.target.type === 'textarea'
     ) {
       setFormData({
@@ -132,7 +134,7 @@ export default function CreateListing() {
         return setError('Discount price must be lower than regular price');
       setLoading(true);
       setError(false);
-      const res = await fetch('/api/listing/create', {
+      const res = await fetch('http://localhost:3000/api/listing/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
