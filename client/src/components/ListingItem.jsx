@@ -8,7 +8,7 @@ export default function ListingItem({ listing }) {
         <img
           src={
             listing.imageUrls[0] ||
-            'https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/Sales_Blog/real-estate-business-compressor.jpg?width=595&height=400&name=real-estate-business-compressor.jpg'
+            'https://images.squarespace-cdn.com/content/v1/61124549ef4ddb5c12f715e0/902c25e9-5d93-454b-9f5e-9a30b101d3eb/Base+de+pre%CC%81sentation+PC++financer+son+projet+immo+%281%29.png'
           }
           alt='listing cover'
           className='h-[320px] sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300'
