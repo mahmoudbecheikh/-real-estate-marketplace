@@ -19,7 +19,7 @@ This project is a real estate marketplace platform where users can publish prope
 
 ## Architecture
 
-![test drawio](https://github.com/user-attachments/assets/0e0a2036-9f58-4885-a06d-af203c09ef0c)
+![test drawio](https://github.com/user-attachments/assets/3730d803-1477-4fb5-8a2f-e2bf5f319d22)
 
 ## Screenshots
 
