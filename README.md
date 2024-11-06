@@ -17,5 +17,8 @@ This project is a real estate marketplace platform where users can publish prope
 - **Database**: MongoDB
 - **Authentication & Storage**: Firebase
 
+## Architecture
+![test drawio](https://github.com/user-attachments/assets/70ded0dc-4fac-4ee3-9f6d-500057bd8dfc)
+
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/a3d5fa72-1970-486d-b945-fef1f95db9d2)
