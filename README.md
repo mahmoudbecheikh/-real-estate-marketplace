@@ -18,7 +18,9 @@ This project is a real estate marketplace platform where users can publish prope
 - **Authentication & Storage**: Firebase
 
 ## Architecture
-![test drawio](https://github.com/user-attachments/assets/99b64e73-725f-4cc2-abf7-43f6ae81fa28)
+
+![test drawio](https://github.com/user-attachments/assets/0e0a2036-9f58-4885-a06d-af203c09ef0c)
 
 ## Screenshots
+
 ![image](https://github.com/user-attachments/assets/a3d5fa72-1970-486d-b945-fef1f95db9d2)
